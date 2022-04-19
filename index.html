@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cloud.mail.ru/public/4RvA/3y9xWpfh8">Меню</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="we.html" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">Сведения об организации</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown09">
+                <li><a class="dropdown-item" href="we.html#1">Основные сведения</a></li>
+                <li><a class="dropdown-item" href="we.html#2">Руководство. Педагогический состав</a></li>
+                <li><a class="dropdown-item" href="we.html#3">Финансово-хозяйственная деятельность</a></li>
+                <li><a class="dropdown-item" href="we.html#4">Информация о специальных условиях для обучения инвалидов и лиц с ограниченными возможностями здоровья</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+<main>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-lg-6">
+        <img src="1.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Добро дожаловать!</h1>
+        <p class="lead">Муниципальное автономное общеобразовательное учреждение «Средняя общеобразовательная школа №5» городского округа город Стерлитамак Республики Башкортостан</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="news.html">Общие сведения</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-4">
+    
+    <section class="text-center">
+      <h1 class="fw-light">Наши новости</h1>
+    </section>
+
+    <!--<div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Добро дожаловать!</h1>
+        <p class="col-md-8 fs-4">Муниципальное автономное общеобразовательное учреждение «Средняя общеобразовательная школа №5» городского округа город Стерлитамак Республики Башкортостан</p>
+        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      </div>
+    </div>-->
+
+    <div class="row align-items-md-stretch" style="margin-top:20px">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Будущие учащиеся полицейского класса!</h2>
+          <p>Прием документов в класс социально - экономического (полицейского) профиля будет осуществляться в период 20.06.2022 по 27.06.2022 года.</p>
+          <!-- Большое модальное окно -->
+          <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel" style="color: black;">Уважаемые родители будущих учащихся полицейского класса!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black;">
+                  Прием документов в класс социально - экономического (полицейского) профиля будет осуществляться в период 20.06.2022 по 27.06.2022 года.
+                  <br><br>
+                  Перечень документов, необходимых для приема учащегося в класс социально - экономического (полицейского) профиля :<br>
+                  1. Справка о регистрации ребенка в городе Стерлитамак.<br>
+                  2. Выписка из амбулаторной карты больного за 3 года (какие заболевания перенес, имеются ли противопоказания в класс с повышенной физической нагрузкой, группа здоровья.)<br>
+                  4. Аттестат об основном общем образовании.<br>
+                  5. Характеристика на учащегося из школы.<br>
+                  6. Портфолио учащегося (достижения по предметам «История», «Обществознание» и спорту).<br>
+                  27.06.2022г. пройдет собеседование с психологом УВД по городу Стерлитамаку по особому графику (наличие маски обязательно).<br>
+                  28.06.2022 в 15.00 заседание комиссии, утверждение кандидатур.<br>
+                  29.06.2022 в 19.00 пройдет родительское собрание с учащимися, зачисленными в класс социально - экономического (полицейского) профиля.<br>
+                  Заявление в 10 социально - экономический (полицейский) класс МАОУ «СОШ №5» городского округа г.Стерлитамак с 29.06.2022г. подается в электронном виде на сайте «Электронное комплектование школ, электронная запись в первый класс». Для этого необходимо ввести в адресную строку браузера адрес: https://complect.edu-rb.ru/ и нажать кнопку «Регистрация», далее заполнить поля согласно запрашиваемой информации. Родителям, подавшим электронную заявку о приеме в 10 класс, необходимо предоставить в школу оригиналы документов до 05.07.2022, иначе ваша заявка будет отклонена.
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">Подробнее</a>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Оранжевый мяч 2022г. команда баскетболисток «Стрижи».</h2>
+          <p>МАОУ «СОШ 5» заняла 1-ое место в Финале Респ. Башкортостан Чемпионата Школьной Баскетбольной Лиги «Оранжевый мяч»</p>
+          <!-- Большое модальное окно -->
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel" style="color: black;">Оранжевый мяч 2022г. команда баскетболисток «Стрижи»</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black;">
+                  МАОУ «СОШ 5» заняла первое место в Финале Республики Башкортостан Чемпионата Школьной Баскетбольной Лиги «Оранжевый мяч» в зачёт XXIV спартакиады школьников среди городских команд Башкортостана. На 2 месте команда города Учалы , на 3 - Уфы.
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle2" role="button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch" style="margin-top:20px">
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Уважаемые родители будущих первоклассников!</h2>
+          <p>С 01 апреля до 30 июня ведется прием документов о зачислении в 1 класс для детей, зарегистрированных на закрепленной территории.</p>
+          <!-- Большое модальное окно -->
+          <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel" style="color: black;">Уважаемые родители будущих первоклассников!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black;">
+                  Постановлением администрации городского округа город Стерлитамак Республики Башкортостан от 04.03.2022г. №475 «О закреплении муниципальных образовательных учреждений городского округа город Стерлитамак Республики Башкортостан, реализующих основные общеобразовательные программы за конкретными территориями городского округа город Стерлитамк Республики Башкортостан» за МАОУ «СОШ №5» городского округа г.Стерлитамак РБ закреплены:<br><br>
+                  ул.Суханова 10,10а,10б,12,14,14а,16,18,20,22,22а,22б,24,26,28,28а;<br><br>
+                  ул.Полевая 13,17,19,21,23,54-112;<br><br>
+                  ул.Гоголя 94,96,98,100,102,106,108,112,116,118,118б, 120,120а, 120б,120в,120г;<br><br>
+                  ул. Чапаева 87, 100-140;<br><br>
+                  ул. Ильича 96-146,105-139;<br><br>
+                  20 лет Октября 96-180, 99-125;<br><br>
+                  Трудовая 112-140,103-125;<br><br>
+                  Калинина 61-85,48-70.<br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle3" role="button">Подробнее</a>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Прощание с азбукой в МАОУ СОШ №5</h2>
+          <p>25 марта 2022г. в МАОУ СОШ№5 в 1-х классах прошел праздник «Прощание с Азбукой». В нём приняли участие ученики 1-х классов.</p>
+          <!-- Большое модальное окно -->
+          <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalToggleLabel" style="color: black;">Прощание с азбукой в МАОУ СОШ №5</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="color: black;">
+                  25 марта 2022 г. в МАОУ СОШ N 5 в 1-х классах прошел праздник «Прощание с Азбукой». В нём приняли участие ученики первых классов. «Прощание с Азбукой» - большое событие в жизни первоклассников, ведь это первая школьная победа. Ребята пришли прощаться с очень уважаемой, а для некоторых первой в жизни, самостоятельно прочитанной книгой – Азбукой.
+                  <br><br>
+                  Многие дети пришли в школу не умеющими читать, а теперь научились читать и писать, а помогла им в этом Азбука. Окончание изучения Азбуки – особый день. Для юных читателей последняя страница Азбуки стала дверью в новую жизнь, где так много интересных книг. Для каждого ребенка изучить все буквы и освоить чтение – это очень большое достижение. Целью праздника было сохранить интерес к познанию нового и вдохновить малышей на следующие победы.
+                  Праздник прощания с Азбукой прошёл в весёлой игровой форме. Это первая серьёзная награда первоклассников в их школьной жизни, которая станет основой для получения новых знаний. Праздник прощания с Азбукой – начало пути к новым знаниям и победам. Пусть в школьной жизни наших самых маленьких учеников будет много таких побед. Желаем первоклассникам успехов в учёбе и всегда хорошего настроения.
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle4" role="button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+  <a class="we" href="we.html" role="button">Больше новостей</a>
+
+  <div class="container marketing" style="margin-top: 50px;">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Режим работы</h2>
+        <p>I смена - 8:00-13:30<br>
+          II смена - 14:00-19:30</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Адрес</h2>
+        <p>Республика Башкортостан<br>
+          г.Стерлитамак, ул.Полевая, д.29</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Телефоны</h2>
+        <p>Директор (3473) 26-26-62<br>
+          Cекретарь (3473)26-45-95</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
+  </body>
+</html>

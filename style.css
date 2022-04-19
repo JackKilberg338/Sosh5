@@ -1,0 +1,15 @@
+body{padding: 0;}
+.card-body{border: 1px solid black}
+.carousel-item active{height: 405px;}
+.carousel-item {height: 405px;}
+.we{display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #0d6efd;
+    color: white;
+    width: 200px;
+    height:50px;
+    margin: 35px auto 0 auto;
+border-radius: 0.25rem;}
+    .we:hover{color: white;}
